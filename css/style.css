@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+@media (max-width: 500px) { 
+	.container { 
+		width: 800px;
+	}	
+}
+
+@media (max-width: 500px) {
+	.container { 
+		width: 400px;
+ 	}
+ }
+
+
+body { 
+background:#F4F4F4;
+font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+}
+
+h1,h2,h3{ 
+font-family: 'DM Sans', sans-serif;
+font-weight: bold;	
+text-align: center;
+}
+a{ 
+text-decoration: none;
+color: #A0E4CC;
+}
+a:hover { 
+color: #1C99A1;
+}
+
+h1{ 
+color: #A0E4CC;
+}
+
+p { 
+text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+} 
+
+.list-inline li {
+	display:inline;
+	padding: 18px;
+} 
+
+.list-inline i {
+	font-size: 27px
+} 
+
